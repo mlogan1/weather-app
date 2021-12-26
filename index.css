@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    color: #212529;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#weatherForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+
+#zip {
+    width: 70%;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+#submit {
+    background-color: #2C7BFF;
+    box-shadow: none;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.conditions {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+#weather{
+    text-align: center;
+}
+
+#weatherStats li {
+    list-style: square;
+    font-size: 1.25rem;
+    line-height: 1.85rem;
+}
+
+.accent {
+    color: #2C7BFF;
+}
